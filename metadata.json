@@ -1,0 +1,6 @@
+{
+  "name": "Vana Canopy",
+  "description": "A sanctuary of silence and urban forest botanical canopy experience in Bengaluru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
