@@ -133,7 +133,7 @@ export const DiscoverView: React.FC<DiscoverViewProps> = ({
             playsInline
             onLoadedData={() => setVideoLoaded(true)}
             className={`w-full h-full object-cover transition-all duration-1000 ${
-              videoLoaded ? 'opacity-80 scale-105 filter contrast-105' : 'opacity-0'
+              videoLoaded ? 'opacity-90 scale-105 filter contrast-125 saturate-[1.15] brightness-105 drop-shadow-2xl' : 'opacity-0'
             }`}
           >
             <source src={currentStream.url} type="video/mp4" />

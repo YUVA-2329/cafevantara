@@ -8,6 +8,7 @@ import { DiscoverView } from './views/DiscoverView';
 import { ReserveView } from './views/ReserveView';
 import { OrdersView } from './views/OrdersView';
 import { ClubView } from './views/ClubView';
+import { SplashScreen } from './components/SplashScreen';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('discover');
@@ -75,6 +76,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#fcf9f0] text-[#1c1c17] relative flex flex-col font-hanken selection:bg-[#506443] selection:text-white">
+      <SplashScreen />
+
       {/* 1. Top App Bar */}
       <TopAppBar
         activeTab={activeTab}
